@@ -1,0 +1,23 @@
+BOOKEASE MONTH 3 FULL-STACK PROJECT
+
+IMPORTANT: This is the full React + Node + MongoDB source project.
+
+1) Extract this ZIP.
+2) Read README.md.
+3) Install Node.js 18+ and MongoDB.
+4) Start backend in PowerShell:
+   cd backend
+   Copy-Item .env.example .env
+   (edit .env and set MongoDB URI + JWT_SECRET)
+   npm install
+   npm run seed
+   npm run dev
+5) Open a NEW PowerShell window:
+   cd frontend
+   Copy-Item .env.example .env
+   npm install
+   npm run dev
+6) Open http://localhost:5173
+
+The previous direct-open HTML demo is not required for this full-stack version.
+Never upload .env or real secrets to GitHub.
